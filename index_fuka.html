@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>割り勘計算機 </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1><center><strong>割り勘計算機</strong></center></h1>
+    <p class="price">1)<strong>金額を入力してください</strong></p>
+    <div>
+        <input type="number" id ="amount"/>
+        <button type="button">入力</button>
+    </div>
+    <p class="number_of_ppl">2)<strong>人数を入力してください</strong></p>
+    
+    <div>
+        <input type="number" id = "people"/>
+        <button type="button">入力 </button>
+    </div>
+    <br>
+    <div>
+        <button type="button" onclick="calculate()">計算</button>
+    </div>
+
+    <p><center><strong id="result">1人あたり：</strong></center></p><br>
+    <p><i><center>ご利用ありがとうございました。</center></i></p>
+    <p id="error" class="error-message"></p>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
